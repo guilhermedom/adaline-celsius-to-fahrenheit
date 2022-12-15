@@ -8,7 +8,7 @@ Adaline regressor learning the Celsius to Fahrenheit formula.
 
 Temperatures are measured using 3 main metrics: Celsius, Fahrenheit and Kelvin. Each one of them can be obtained from any other using a linear function. The [Celsius to Fahrenheit conversion formula], for instance, is as follows:
 
-$ Fahrenheit = 1.8 * Celsius + 32 $
+$$ Fahrenheit = 1.8 * Celsius + 32 $$
 
 Since it is a very simple formula, many machine learning algorithms are able to learn it and predict the conversion given a value in Celsius. Algorithms that have to fit coefficients for a weighted function can be interpreted intuitively in this task. The fitted coefficients, in this case, must be 1.8 for the single variable and 32 for the bias (or intercept).
 
